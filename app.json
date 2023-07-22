@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "scheme": "tanoshii",
+    "web": {
+      "bundler": "metro"
+    },
+    "orientation": "portrait",
+    "name": "Tanoshii Beta",
+    "slug": "TanoshiiApp",
+    "icon": "./app/assets/images/icon.png",
+    "android": {
+      "package": "com.liaxo.tanoshiiapp",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "tanoshii"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    }
+  }
+}
